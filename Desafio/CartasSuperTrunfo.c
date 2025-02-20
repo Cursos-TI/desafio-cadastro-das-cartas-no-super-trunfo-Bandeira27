@@ -42,7 +42,7 @@ int main() {
     printf("Digite a letra do seu estado (entre 'A' e 'H'):\n");
     scanf(" %c", &estado2); // O espaço antes do formato é para que ignore o \n
 
-    printf("Digite a letra do estado seguido de um número de 01 a 04 (ex: A01, B03):\n\n");
+    printf("Digite a letra do estado seguido de um número de 01 a 04 (ex: A01, B03):\n");
     scanf("%s", codigoCarta2);
 
     printf("Digite o nome de sua cidade:\n");
@@ -60,11 +60,11 @@ int main() {
     printf("Digite a quantidade de pontos turísticos na cidade:\n");
     scanf("%i", &pontosTuristicos2);
 
-    printf("Carta 1\nEstado: %c\nCódigo: %s\nCidade: %s\n", estado1, codigoCarta1, cidade1);
+    printf("\n\nCarta 1\nEstado: %c\nCódigo: %s\nCidade: %s\n", estado1, codigoCarta1, cidade1);
     printf("População: %i\nÁrea: %.2f km²\nPib: %.2f bilhões de reais\nNúmero de pontos turísticos: %i", populacao1, area1, pib1, pontosTuristicos1);
 
-    printf("Carta 2\nEstado: %c\nCódigo: %s\nCidade: %s\n", estado2, codigoCarta2, cidade2);
-    printf("População: %i\nÁrea: %.2f km²\nPib: %.2f bilhões de reais\nNúmero de pontos turísticos: %i", populacao2, area2, pib2, pontosTuristicos2);
+    printf("\n\nCarta 2\nEstado: %c\nCódigo: %s\nCidade: %s\n", estado2, codigoCarta2, cidade2);
+    printf("População: %i\nÁrea: %.2f km²\nPib: %.2f bilhões de reais\nNúmero de pontos turísticos: %i\n\n", populacao2, area2, pib2, pontosTuristicos2);
 
 /*
     Separei o printf() em dois para cada exibição da carta para que a linha única de exibição não fique grande, facilitando a leitura.
